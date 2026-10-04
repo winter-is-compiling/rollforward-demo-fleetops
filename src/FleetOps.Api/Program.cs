@@ -37,3 +37,5 @@ public sealed class NullEventPublisher : IEventPublisher
 {
     public Task PublishAsync(IDomainEvent evt, CancellationToken ct = default) => Task.CompletedTask;
 }
+
+public partial class Program { }
